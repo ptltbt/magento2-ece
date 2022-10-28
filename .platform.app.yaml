@@ -9,6 +9,10 @@ name: magento
 # The runtime the application uses.
 type: php:8.1
 
+dependencies:
+    php:
+        composer/composer: '^2'
+
 # Specify additional PHP extensions that should be loaded.
 runtime:
     extensions:
