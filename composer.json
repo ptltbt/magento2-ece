@@ -18,14 +18,14 @@
             "magento/inventory-composer-installer": true
         }
     },
-    "version": "2.4.4",
+    "version": "2.4.5",
     "require": {
         "magento/composer-dependency-version-audit-plugin": "~0.1",
-        "magento/composer-root-update-plugin": "~2.0",
+        "magento/composer-root-update-plugin": "^2.0",
         "magento/ece-tools": "^2002.1",
         "magento/magento-cloud-components": "^1.0",
         "magento/magento-cloud-patches": "^1.0",
-        "magento/product-community-edition": "2.4.4",
+        "magento/product-community-edition": "2.4.5",
         "magento/quality-patches": "^1.1",
         "markshust/magento2-module-disabletwofactorauth": "^2.0"
     },
@@ -52,16 +52,16 @@
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.4",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-        "friendsofphp/php-cs-fixer": "~2.18.1",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "friendsofphp/php-cs-fixer": "~3.4.0",
         "lusitanian/oauth": "~0.8.10",
         "magento/magento-coding-standard": "*",
         "magento/magento2-functional-testing-framework": "^3.0",
-        "pdepend/pdepend": "~2.7.1",
+        "pdepend/pdepend": "^2.7.0",
         "phpcompatibility/php-compatibility": "^9.3",
-        "phpmd/phpmd": "^2.8.0",
-        "phpstan/phpstan": "^0.12.77",
-        "phpunit/phpunit": "^9",
+        "phpmd/phpmd": "^2.12.0",
+        "phpstan/phpstan": "^1.6.8",
+        "phpunit/phpunit": "~9.5.20",
         "sebastian/phpcpd": "^6.0.3",
         "squizlabs/php_codesniffer": "~3.5.4",
         "symfony/finder": "^5.2"
